@@ -10,4 +10,6 @@
 
 @interface NSDate (BNRDateConvenience)
 
++ (NSDate *)initWithSpecifiedDate: (NSInteger)month withDay:(NSInteger)day withYear:(NSInteger)year;
+
 @end
